@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="./js//main.js"></script>
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js//main.js" defer></script>
+    <title>Text Area</title>
+  </head>
+  <body>
+    <header>
+      <h1>Dynamic Text Area</h1>
+    </header>
+    <main>
+      <form>
+        <div id="row-input-container">
+          <div class="number-field">
+            <label for="min-rows">Min Rows</label>
+            <input type="number" name="min-rows" id="min-rows" />
+          </div>
+          <div class="number-field">
+            <label for="max-rows">Max Rows</label>
+            <input type="number" name="max-rows" id="max-rows" />
+          </div>
+        </div>
+        <button>Submit</button>
+      </form>
+      <textarea
+        name="text-area"
+        id="text-area"
+        placeholder="Text Area"
+        cols="50"
+        rows="10"
+      ></textarea>
+    </main>
+  </body>
 </html>
