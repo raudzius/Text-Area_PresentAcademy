@@ -59,7 +59,6 @@ textarea {
 
 textarea {
   resize: none;
-  overflow: hidden;
   margin: auto;
   border: 0;
 }
